@@ -24,6 +24,8 @@ const getPosts = async () => {
   return res.json();
 };
 
+// ! short time server using json server
+
 const PostPage = async () => {
   //! Recap Fetching in next.js (module-43-cl-02)
 
