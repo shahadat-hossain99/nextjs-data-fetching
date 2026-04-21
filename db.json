@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "price": 79.99,
+      "category": "Electronics",
+      "description": "High-quality wireless headphones with noise cancellation and 30-hour battery life.",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500",
+      "inStock": true,
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "price": 199.99,
+      "category": "Electronics",
+      "description": "Advanced fitness tracking smartwatch with heart rate monitor and GPS.",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500",
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "name": "USB-C Charging Cable",
+      "price": 12.99,
+      "category": "Accessories",
+      "description": "Durable USB-C cable with fast charging support for all devices.",
+      "image": "https://images.unsplash.com/photo-1609034227505-5876f6aa4e90?w=500",
+      "inStock": true,
+      "rating": 4.3
+    },
+    {
+      "id": 4,
+      "name": "Portable Phone Stand",
+      "price": 24.99,
+      "category": "Accessories",
+      "description": "Adjustable aluminum phone stand compatible with all smartphone sizes.",
+      "image": "https://images.unsplash.com/photo-1586253408818-8c5955e95a13?w=500",
+      "inStock": false,
+      "rating": 4.6
+    },
+    {
+      "id": 5,
+      "name": "Laptop Backpack",
+      "price": 49.99,
+      "category": "Bags",
+      "description": "Water-resistant backpack with multiple compartments and laptop sleeve.",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+      "inStock": true,
+      "rating": 4.4
+    }
+  ]
+}
