@@ -1,8 +1,46 @@
 import ProductsCard from "@/components/ProductsCard/ProductsCard";
 
+// ! forced caching
+// const getProducts = async () => {
+//   const res = await fetch("http://localhost:5000/products", {
+//     cache: "force-cache",
+//   });
+//   return await res.json();
+// };
+
+// const getProducts = async () => {
+//   const res = await fetch("http://localhost:5000/products", {
+//     cache: "no-cache",
+//   });
+//   return await res.json();
+// };
+
+// const getProducts = async () => {
+//   const res = await fetch("http://localhost:5000/products", {
+//     next: {
+//       revalidate: 30,
+//     },
+//   });
+//   return await res.json();
+// };
+
+// !special one
+// const getProducts = unstable_cache(
+//   async () => {
+//     const res = await fetch("http://localhost:5000/products");
+//     return await res.json();
+//   },
+//   ["products-cache"], // cache key
+//   {
+//     revalidate: 30, // 30 seconds
+//   },
+// );
+
 const getProducts = async () => {
   const res = await fetch("http://localhost:5000/products", {
-    cache: "force-cache",
+    next: {
+      revalidate: 30,
+    },
   });
   return await res.json();
 };
