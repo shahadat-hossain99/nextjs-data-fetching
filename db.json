@@ -50,5 +50,111 @@
       "inStock": true,
       "rating": 4.4
     }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "The Pragmatic Programmer",
+      "author": "David Thomas & Andrew Hunt",
+      "price": 49.99,
+      "category": "Programming",
+      "description": "A guide to becoming a better software developer through practical advice and real-world examples.",
+      "image": "https://images.unsplash.com/photo-1589998059171-988d887df646?w=500",
+      "inStock": true,
+      "rating": 4.8,
+      "pages": 352,
+      "publishedYear": 2019
+    },
+    {
+      "id": 2,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "price": 44.99,
+      "category": "Programming",
+      "description": "A handbook of agile software craftsmanship that teaches how to write clean, readable, and maintainable code.",
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500",
+      "inStock": true,
+      "rating": 4.7,
+      "pages": 431,
+      "publishedYear": 2008
+    },
+    {
+      "id": 3,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "price": 27.99,
+      "category": "Self Help",
+      "description": "An easy and proven way to build good habits and break bad ones using tiny changes that deliver remarkable results.",
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=500",
+      "inStock": true,
+      "rating": 4.9,
+      "pages": 320,
+      "publishedYear": 2018
+    },
+    {
+      "id": 4,
+      "title": "You Don't Know JS",
+      "author": "Kyle Simpson",
+      "price": 39.99,
+      "category": "Programming",
+      "description": "A deep dive into the core mechanisms of JavaScript — the language behind the modern web.",
+      "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=500",
+      "inStock": false,
+      "rating": 4.6,
+      "pages": 278,
+      "publishedYear": 2015
+    },
+    {
+      "id": 5,
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "price": 24.99,
+      "category": "Self Help",
+      "description": "Rules for focused success in a distracted world — how to produce your best work by eliminating shallow distractions.",
+      "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=500",
+      "inStock": true,
+      "rating": 4.7,
+      "pages": 304,
+      "publishedYear": 2016
+    },
+    {
+      "id": 6,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "price": 18.99,
+      "category": "Fiction",
+      "description": "A philosophical novel about a young shepherd's journey to find treasure and discover his personal legend.",
+      "image": "https://images.unsplash.com/photo-1476275466078-4007374efbbe?w=500",
+      "inStock": true,
+      "rating": 4.8,
+      "pages": 197,
+      "publishedYear": 1988
+    },
+    {
+      "id": 7,
+      "title": "JavaScript: The Good Parts",
+      "author": "Douglas Crockford",
+      "price": 34.99,
+      "category": "Programming",
+      "description": "Unearthing the excellence in JavaScript — focusing on the reliable, elegant parts of the language.",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500",
+      "inStock": true,
+      "rating": 4.5,
+      "pages": 172,
+      "publishedYear": 2008
+    },
+    {
+      "id": 8,
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "price": 15.99,
+      "category": "Self Help",
+      "description": "A timeless classic on success, mindset, and achieving your goals through the power of thought and persistence.",
+      "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=500",
+      "inStock": true,
+      "rating": 4.6,
+      "pages": 238,
+      "publishedYear": 1937
+    }
   ]
 }
